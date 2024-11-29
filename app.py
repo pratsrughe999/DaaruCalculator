@@ -151,7 +151,7 @@ def convert_currency(amount, currency):
 
 # Streamlit app main function
 def main():
-    st.title("PR's Daaru Kharcha Calulator")
+    st.title("Alcohol Sesh Calulator")
 
     # Sidebar for user inputs
     category = st.sidebar.selectbox('Select the Category', ['Wine', 'Beer', 'Whiskey', 'Gin', 'Tequila'])
